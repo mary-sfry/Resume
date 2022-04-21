@@ -1,0 +1,95 @@
+.most-choosen {
+    margin: 40px auto 10px !important;
+    text-align: center;
+
+    &__title {
+        color: $title;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    
+    &__item {
+        color: $title;
+        font-weight: 500;
+        margin-top: 0px;
+        transition: color 0.3s ease-in-out;
+    }
+
+    &__active {
+        color: $secondary-color ;
+    }
+
+    &__box {
+        cursor: pointer;
+    }
+
+    &__box:hover &__item {
+        color: $secondary-color;
+    }
+
+    &__content {
+        padding: 0 10px 100px;
+    }
+}
+
+.addbtn {
+    background-color: $secondary-color;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 12px 30px;
+    font-family: iranSans;
+    cursor: pointer;
+
+    &:hover {
+    background-color: lighten($secondary-color, 5%);
+    }
+}
+
+
+
+
+
+
+.add-to-cart {
+    color: white;
+    background-color: $secondary-color;
+    border: none;
+    font-family: iranSans;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.Homebanner-R {
+    & > div {
+        margin: 0 25px;
+    }
+
+    & p:nth-of-type(1) {
+        color: rgb(189,34,34);
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: -10px;
+    }
+
+    & h1 {
+        color: $primary-color;
+    }
+
+    & p:nth-of-type(2) {
+        color: rgb(129,129,129);
+        margin-bottom: 40px;
+    }
+    
+}
+
+.Homebanner-L {
+    padding: 0;
+
+    & img {
+        width: 100%;
+    }
+}

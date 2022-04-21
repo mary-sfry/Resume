@@ -1,0 +1,15 @@
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    // padding-top: theme.spacing(0.5);
+    // padding-Bottom: theme.spacing(0.5);
+}
+.icon {
+    font-size: 35px !important;
+    color: $primary-color;
+}
+
+.navbar {
+    background-color: $base-color !important;
+    padding: 10px 0;
+}

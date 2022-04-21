@@ -1,0 +1,30 @@
+.gotop {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $secondary-color;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &__icon {
+        font-size: 26px;
+        color:white;
+        margin-left: 1.7px;
+    }
+
+    &__hidden {
+        display: none;
+    }
+
+    &__show {
+        display: flex;
+    }
+
+    &:hover {
+        background-color: lighten($color: $secondary-color, $amount: 3%);
+    }
+}

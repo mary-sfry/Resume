@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'iranSans';
+  src: local("iranSans"), url(../fonts/IRAN-Sans-Bold.ttf) format("ttf");
+}
+
+body {
+  background-color: #1f1f1f;
+  font-family: iranSans;
+}
+
+.menuTitle {
+  background-color: white;
+  padding: 35px 0 35px;
+  border-radius: 16px;
+}
+
+.menuTitle__image {
+  width: 64px;
+  height: 64px;
+}
+
+.toolbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icon {
+  font-size: 35px;
+}
+
+.menu {
+  background-color: #333;
+  margin: 0 auto 0 !important;
+  border-radius: 16px;
+}
+
+.MenuItem {
+  background-color: #ffd200;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 16px;
+  position: relative;
+}
+
+.MenuItem__pic {
+  width: 200px;
+}
+
+.MenuItem__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0 0 0 15px;
+}
+
+.MenuItem__name {
+  font-weight: bold;
+  font-size: large;
+}
+
+.MenuItem__desc {
+  text-align: right;
+  font-size: 14px;
+  color: #3d3d3d;
+}
+
+.MenuItem__action {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+}
+
+.MenuItem__addbtn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,44 @@
+.MenuItem {
+    background-color: rgb(255,210,0);
+    display: flex;
+    flex-direction: row;
+    border-radius: $base-border-radius;
+    position: relative;
+    
+
+    &__pic {
+        width: 200px;
+    }
+    
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 0 0 15px;
+    }
+
+    &__name {
+        font-weight: bold;
+        font-size: large;
+    }
+
+    &__desc {
+        text-align: right;
+        font-size: 14px;
+        color: rgb(61, 61, 61);
+    }
+
+    &__action {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    &__addbtn {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+}

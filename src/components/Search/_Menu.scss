@@ -1,0 +1,10 @@
+.menu {
+    background-color: #333;
+    margin: 0 auto 0 !important;
+    border-radius: $base-border-radius;
+    padding: 15px;
+
+    & Grid {
+        padding: 10px;  // به هر دو گرید میانی باید اعمال بشه
+    }
+}
